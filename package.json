@@ -1,0 +1,50 @@
+{
+  "name": "nodejs-orm-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai1004/nodejs-orm-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai1004/nodejs-orm-mysql/issues"
+  },
+  "homepage": "https://github.com/sai1004/nodejs-orm-mysql#readme",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
+    "@types/handlebars": "^4.1.0",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/node": "^12.6.8",
+    "@types/nodemailer": "^6.2.1",
+    "@types/randomstring": "^1.1.6",
+    "@types/swagger-jsdoc": "^3.0.1",
+    "@types/swagger-ui-express": "^3.0.1",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.0",
+    "randomstring": "^1.1.5",
+    "swagger-jsdoc": "^3.3.0",
+    "swagger-ui-express": "^4.0.7",
+    "typeorm": "^0.2.18",
+    "winston": "^3.2.1"
+  }
+}
