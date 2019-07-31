@@ -23,7 +23,7 @@ createConnection({
     profile.email = "rajkumar123@gmail.com";
     profile.password = "!@#123rajk*";
 
-    let savedProfile = await Connection.manager.find(Profile);
+    let savedProfile = await Connection.manager.find(Profile);  //get data from db
     console.log("This Recoreds All Are From DB", savedProfile);
 
     return Connection.manager.save(profile).then(profile => {
