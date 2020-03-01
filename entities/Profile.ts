@@ -2,7 +2,6 @@ import { Entity, PrimaryColumn, Column } from "typeorm";
 
 @Entity("profile")
 export class Profile {
-
   @PrimaryColumn()
   id: string;
 
@@ -14,11 +13,7 @@ export class Profile {
 
   @Column()
   password: string;
-  
+
   @Column()
   mobile: string;
-
-
-
-
 }
