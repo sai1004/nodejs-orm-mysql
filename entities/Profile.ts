@@ -13,10 +13,12 @@ export class Profile {
   email: string;
 
   @Column()
+  password: string;
+  
+  @Column()
   mobile: string;
 
-  @Column()
-  password: string;
+
 
 
 }
