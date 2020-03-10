@@ -11,7 +11,7 @@ createConnection({
   type: "mysql",
   host: "localhost",
   port: 3306,
-  username: "root",
+  username: "user",
   password: "Admin!234",
   database: "mydb",
   entities: [__dirname + "/entities/*.ts"],
